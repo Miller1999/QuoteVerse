@@ -4,7 +4,7 @@ import Logo from "../../Assets/github.svg";
 const Footer = () => {
   return (
     <Fragment>
-      <footer className="flex items-center fixed bottom-2 left-[35vw] gap-1">
+      <footer className="flex items-center gap-1 w-full justify-center mt-6 pb-6">
         <span>Developed by Miller Arias -</span>
         <a
           href="https://github.com/Miller1999"
