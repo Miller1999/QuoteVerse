@@ -58,10 +58,10 @@
 
 Challenge: Create a quote generator app. Use Front-end libraries like React or Vue. Don’t look at the existing solution. Fulfill user stories below:
 
-User story: I can see a random quote
-User story: I generate a new random quote
-User story: When I select quote author, I can see a list of quotes from them
-User story: I can see quote genre under the author
+- User story: I can see a random quote
+- User story: I generate a new random quote
+- User story: When I select quote author, I can see a list of quotes from them
+- User story: I can see quote genre under the author
 <br>
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hH6PbOHBdPm6otzw2De5) was to build an application to complete the given user stories.
 
