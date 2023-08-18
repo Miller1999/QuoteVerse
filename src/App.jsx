@@ -4,6 +4,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import "./index.css";
+import { QuoteContextProvider } from "./context";
 
 function AppRoutes() {
   const routes = useRoutes([
@@ -21,12 +22,14 @@ function AppRoutes() {
 
 function App() {
   return (
-    <BrowserRouter>
-      <Fragment>
-        <NavBar />
-        <AppRoutes />
-      </Fragment>
-    </BrowserRouter>
+    <QuoteContextProvider>
+      <BrowserRouter>
+        <Fragment>
+          <NavBar />
+          <AppRoutes />
+        </Fragment>
+      </BrowserRouter>
+    </QuoteContextProvider>
   );
 }
 
